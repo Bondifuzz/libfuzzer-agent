@@ -35,7 +35,7 @@ cd libfuzzer-agent
 pip3 install -r requirements-dev.txt
 
 ln -s local/dotenv .env
-ln -s local/docker-compose.yml docker-compose.yaml
+ln -s local/docker-compose.yml docker-compose.yml
 docker-compose -p libfuzzer_agent up -d
 
 python3 -m agent
