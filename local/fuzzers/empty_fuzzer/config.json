@@ -1,0 +1,10 @@
+{
+    "target": {
+        "path": "empty_fuzzer"
+    },
+    "options": {
+        "libfuzzer": {
+            "max_len": "512"
+        }
+    }
+}
